@@ -391,13 +391,27 @@ node skills/gpt-image-2/scripts/edit.js \
 
 ### 16. Academic Figures (`references/academic-figures/`)
 
-适合“论文 / 顶会投稿 / 学术海报 / 答辩 PPT”的配图。整体偏白底 + 出版物字体 + 几何精确，可单色印刷。当前已落地：
+适合“论文 / 顶会投稿 / 学术海报 / 答辩 PPT / 开题答辩 / 期刊投稿 Graphical Abstract”的配图。整体偏白底 + 出版物字体 + 几何精确 + 低饱和工程色（深蓝 / 灰蓝 / 黑灰为主，≤3 主色）+ 可单色印刷。**严格禁止虚构定量数据**（数值 / 等值线 / 色标范围 / 公式）。
 
-- `method-pipeline-overview.md` — 方法总览图 / pipeline figure（多 stage 块 + 数据流）
+CS / CV / ML 方向：
+
+- `method-pipeline-overview.md` — 方法总览图 / pipeline figure（多 stage 块 + 数据流；变体 4 提供工程类左/中/右 三段式技术路线图）
 - `neural-network-architecture.md` — 神经网络架构图（layer 块 + tensor shape + 跳连）
-- `qualitative-comparison-grid.md` — 多方法 qualitative 对比网格（行 = 样本，列 = 方法）
+- `qualitative-comparison-grid.md` — 多方法 qualitative 对比网格（**行 = 样本，列 = 方法**）
+
+工程 / 自然科学 / 答辩通用：
+
 - `scientific-schematic.md` — 概念 / 原理 / 实验装置示意图（自由度高，自然语言模板）
+- `mechanism-diagram.md` — 机理示意图 / 因果链路 / 转化路径（中心对象 + 多阶段转化 + 结果区；含三段式因果链 / 循环自激发 / 多分支竞争 三种变体）
+- `multi-condition-comparison.md` — **多工况 / 多条件结果对比图**（同一对象在不同 condition 下的并列结果，2×2 / 1×N / M×N；强调 panel 间严格统一）
 - `publication-chart.md` — publication-ready 数据图表（bar / line / scatter / heatmap / box）
+
+总览 / 摘要 / 答辩首页：
+
+- `graphical-abstract.md` — 期刊投稿 Graphical Abstract / 图形摘要（横向 4 段式 / 中心展开 / 方形 / 竖版四种变体）
+- `research-overview-poster.md` — 开题 / 答辩 / 汇报首页研究总览图（上中下三层 + 五模块；含中心辐射 / 左右双栏 / 极简 三种变体）
+
+> 选择策略：CS/CV/ML 论文首选 `method-pipeline-overview` + `qualitative-comparison-grid`；工程 / 能源 / 化工 / 材料方向首选 `method-pipeline-overview` 变体 4 + `mechanism-diagram` + `multi-condition-comparison`；投稿期刊摘要图用 `graphical-abstract`；答辩 PPT 首页用 `research-overview-poster`。
 
 ### 17. Infographics (`references/infographics/`)
 

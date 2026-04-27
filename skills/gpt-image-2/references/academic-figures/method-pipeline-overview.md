@@ -223,6 +223,33 @@
 
 适用：扩散模型、迭代细化方法、能量模型。
 
+## 变体 4：工程类技术路线图（左 / 中 / 右 三段式）
+
+```json
+{
+  "type": "工程类技术路线图（engineering research roadmap）",
+  "modify": {
+    "layout": "左 / 中 / 右 三段式：左侧 = 研究对象与背景（简化线稿示意），中间 = 多步骤分析路径（4-7 个学术化模块），右侧 = 输出与结果导向（3-4 个短语化结论方向）",
+    "rule": "三段宽度比约 2:5:2；左右两侧用学术化短语 + 简化线稿，禁止商业图标 / 写实渲染 / 火焰浓烟特效；中间分析路径模块大小统一、对齐严格、连接关系简洁",
+    "tone": "更接近高质量 Graphical Abstract 与方法路线图融合的工程论文图，不是 office 流程框图，也不是商业海报",
+    "stage_naming_examples_for_engineering": [
+      "fuel / material characterization",
+      "kinetics / thermodynamics analysis",
+      "experimental setup OR numerical model",
+      "boundary / operating condition design",
+      "process simulation or experiment",
+      "field / behavior evaluation",
+      "emission / performance analysis"
+    ],
+    "color_palette": "deep blue / slate blue / charcoal as main; one low-saturation amber accent for high-temperature or risk modules ONLY when user signaled it; ≤ 3 main colors total",
+    "data_authenticity": "if no real data is provided, do NOT invent equations, kinetic constants, temperature values, emission factors, or chart numbers; render module summaries as qualitative phrases only",
+    "use_case": "能源动力 / 燃烧 / 热能工程 / 环境工程 / 材料 / 化工 等工程方向的开题答辩、综述论文、Methods 章节首图；区别于 CS/CV pipeline 的横向 stage 块结构"
+  }
+}
+```
+
+适用：能源动力、燃烧、热能工程、环境工程、化工、材料等工程方向的研究路线图与高质量 Graphical Abstract 融合需求；CS/CV/ML 类首选主模板。
+
 ## 避免事项
 
 - 用渐变 / drop shadow / 玻璃质感 → 立刻 "PPT 风" 而不是论文风

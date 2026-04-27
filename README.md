@@ -1,6 +1,6 @@
 <div align="center">
 
-# Agent Skills
+# Garden Skills
 
 **A curated collection of production-ready [Agent Skills](https://support.claude.com/en/articles/12512176-what-are-skills) for Claude Code, Cursor, Codex, and other AI coding agents.**
 
@@ -72,6 +72,34 @@ Turns AI-generated web pages from "functional" into "stunning."
 <tr>
 <td>
 
+**[`gpt-image-2`](./skills/gpt-image-2)**
+
+</td>
+<td>
+
+Image&nbsp;Gen&nbsp;/&nbsp;Prompting
+
+</td>
+<td>
+
+A focused image-gen skill for GPT Image 2 (and OpenAI-compatible image APIs).
+
+- **Three runtime modes**: A&nbsp;Garden local · B&nbsp;Host-native delegate · C&nbsp;Advisor-only
+- 18 categories, 70+ structured prompt templates
+- Auto prompt + image archival under `garden-gpt-image-2/`
+- Mode-detection script so the skill never silently fails
+
+</td>
+<td>
+
+[README](./skills/gpt-image-2/README.md) · [SKILL](./skills/gpt-image-2/SKILL.md)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
 **[`rag-skill`](./skills/rag-skill)**
 <br/><sub>frontmatter `name: kb-retriever`</sub>
 
@@ -98,33 +126,6 @@ A local knowledge-base retriever that never loads whole files into context.
 </td>
 </tr>
 
-<tr>
-<td>
-
-**[`gpt-image-2`](./skills/gpt-image-2)**
-
-</td>
-<td>
-
-Image&nbsp;Gen&nbsp;/&nbsp;Prompting
-
-</td>
-<td>
-
-A focused image-gen skill for GPT Image 2 (and OpenAI-compatible image APIs).
-
-- **Three runtime modes**: A&nbsp;Garden local · B&nbsp;Host-native delegate · C&nbsp;Advisor-only
-- 18 categories, 70+ structured prompt templates
-- Auto prompt + image archival under `garden-gpt-image-2/`
-- Mode-detection script so the skill never silently fails
-
-</td>
-<td>
-
-[README](./skills/gpt-image-2/README.md) · [SKILL](./skills/gpt-image-2/SKILL.md)
-
-</td>
-</tr>
 </table>
 
 ---

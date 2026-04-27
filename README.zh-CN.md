@@ -1,6 +1,6 @@
 <div align="center">
 
-# Agent Skills
+# Garden Skills
 
 **花园老师的开源 [Agent Skills](https://support.claude.com/en/articles/12512176-what-are-skills) 集合，面向 Claude Code、Cursor、Codex 等所有支持 `SKILL.md` 格式的 AI 编程代理。**
 
@@ -72,6 +72,34 @@
 <tr>
 <td>
 
+**[`gpt-image-2`](./skills/gpt-image-2)**
+
+</td>
+<td>
+
+图像生成&nbsp;/&nbsp;Prompt
+
+</td>
+<td>
+
+聚焦的 GPT Image 2 图像生成 / 编辑 Skill，兼容 OpenAI 兼容图像 API。
+
+- **三种运行模式**：A&nbsp;Garden 本地直出 · B&nbsp;委托宿主出图 · C&nbsp;纯提示词顾问
+- 18 大类、70+ 个结构化提示词模板
+- 自动归档 prompt + image 到 `garden-gpt-image-2/`
+- 自带模式探测脚本，永不静默失败
+
+</td>
+<td>
+
+[README](./skills/gpt-image-2/README.zh-CN.md) · [SKILL](./skills/gpt-image-2/SKILL.md)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
 **[`rag-skill`](./skills/rag-skill)**
 <br/><sub>frontmatter `name: kb-retriever`</sub>
 
@@ -98,33 +126,6 @@
 </td>
 </tr>
 
-<tr>
-<td>
-
-**[`gpt-image-2`](./skills/gpt-image-2)**
-
-</td>
-<td>
-
-图像生成&nbsp;/&nbsp;Prompt
-
-</td>
-<td>
-
-聚焦的 GPT Image 2 图像生成 / 编辑 Skill，兼容 OpenAI 兼容图像 API。
-
-- **三种运行模式**：A&nbsp;Garden 本地直出 · B&nbsp;委托宿主出图 · C&nbsp;纯提示词顾问
-- 18 大类、70+ 个结构化提示词模板
-- 自动归档 prompt + image 到 `garden-gpt-image-2/`
-- 自带模式探测脚本，永不静默失败
-
-</td>
-<td>
-
-[README](./skills/gpt-image-2/README.zh-CN.md) · [SKILL](./skills/gpt-image-2/SKILL.md)
-
-</td>
-</tr>
 </table>
 
 ---
